@@ -28,5 +28,5 @@ jobs:
     - name: Install Surge
       run : npm install -g surge
     - name: Deploy Website to Surge
-      run: surge ./bc_2020.surge.sh/ --token ${{secrets.surge_token}}
+      run: surge ./bc_2020.surge.s/ --token ${{secrets.surge_token}}
     
